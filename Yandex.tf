@@ -126,7 +126,7 @@ resource "local_file" "playbook" {
         path: /tmp/App42PaaS-Java-MySQL
       name: aamitv/app1-terraform
       tag: latest
-     # push: yes
+      push: yes
       source: build
 
 
