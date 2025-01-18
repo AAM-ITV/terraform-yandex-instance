@@ -1,0 +1,24 @@
+#cloud-config
+users:
+  - name: root
+    groups: sudo
+    shell: /bin/bash
+    sudo: 'ALL=(ALL) NOPASSWD:ALL'
+    ssh_authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCLgK4GWu0Iisa95wGQ1JUTJjREWkwe0J7kA4wibhBLRhU25KwLXEfwmqxJmAQXPvOUsErbYOgdLEs1urs/vFKYzQiGpouv9eZNIwM9m0LuiQeE2su2yewF8ZbE0Q/1XwRg2BT+isf8QXeAHM28vybd5>
+
+  - name: jenkins
+    groups: sudo
+    shell: /bin/bash
+    sudo: 'ALL=(ALL) NOPASSWD:ALL'
+    ssh_authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCiYJ47jJv7nV07+UHh4kw/jozccFFqz3qhjcn/v/0CC3fCH/GOg3r9RZvNuek+o3eHDex3k5UN03K8I5EVWtY8hc8xdZgdHu2ir1QPsfnM/q4KvRdrVO2NRivPbyQMm+IlJ2HIhkWoyKtwwpeWhvH/F>
+
+
+
+
+
+
+
+
+
